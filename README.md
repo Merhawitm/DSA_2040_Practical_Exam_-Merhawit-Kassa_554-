@@ -71,8 +71,9 @@ DSA_2040_PROJECT/
 │   ├── transactions.csv
 
 │   └── top5_rules.csv
-│
+
 │── notebooks/                # Jupyter Notebooks for analysis
+
 │   ├── Iris_Preprocessing_and_Exploration.ipynb
 
 │   ├── classification_iris.ipynb
@@ -82,8 +83,9 @@ DSA_2040_PROJECT/
 │   ├── mining_iris_basket.ipynb
 
 │   └── etl_retail.ipynb
-│
+
 │── images/                   # Plots, diagrams, and screenshots
+
 │   ├── iris_boxplots.png
 
 │   ├── iris_clusters.png
@@ -99,10 +101,13 @@ DSA_2040_PROJECT/
 │   ├── elbow_curve.png
 
 │   ├── schema_diagram.png
+
 │   └── screenshots/*.jpg
 │
 │── retail_dw.db              # SQLite database for retail ETL
+
 │── schema.sql                # SQL schema for retail data warehouse
+
 │── README.md                 # Project documentation
 
 ---
