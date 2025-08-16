@@ -74,7 +74,8 @@ DSA_2040_PROJECT/
 
 │   └── top5_rules.csv
 
-│── notebooks/                # Jupyter Notebooks for analysis
+│── notebooks/ # Jupyter Notebooks for analysis
+
 │   ├── Iris_Preprocessing_and_Exploration.ipynb
 
 │   ├── classification_iris.ipynb
@@ -104,7 +105,7 @@ DSA_2040_PROJECT/
 │   ├── schema_diagram.png
 
 │   └── screenshots/*.jpg
-│
+
 │── retail_dw.db              # SQLite database for retail ETL
 
 │── schema.sql                # SQL schema for retail data warehouse
