@@ -63,7 +63,9 @@ This repository contains the **practical exam submission** for **DSA 2040 – Da
 ## Directory Structure
 
 DSA_2040_PROJECT/
+
 │── data/                     # Datasets (raw & preprocessed)
+
 │   ├── iris_preprocessed.csv
 
 │   ├── synthetic_retail_data.csv
@@ -73,7 +75,6 @@ DSA_2040_PROJECT/
 │   └── top5_rules.csv
 
 │── notebooks/                # Jupyter Notebooks for analysis
-
 │   ├── Iris_Preprocessing_and_Exploration.ipynb
 
 │   ├── classification_iris.ipynb
