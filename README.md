@@ -160,13 +160,16 @@ Example query:1. Roll-up: Total Sales by Country and Quarter
 <img width="434" height="308" alt="image" src="https://github.com/user-attachments/assets/f470f011-ca5a-4686-bf16-7747757f83a3" />
 
  2️, Drill-down: Monthly Sales for a Specific Country
+ 
 **Sample Output :**
 <img width="439" height="122" alt="image" src="https://github.com/user-attachments/assets/3d3d8673-4bd3-49ee-8d7d-8ad0050bb460" />
 
 3️, Slice: Total Sales by Category (focus on Electronics)
+
 <img width="538" height="320" alt="image" src="https://github.com/user-attachments/assets/755d1603-8c40-416d-b999-260784504e84" />
 
- Plot: Bar chart of total sales by country
+ Plot: Bar chart of total sales by 
+ 
  <img width="1389" height="590" alt="image" src="https://github.com/user-attachments/assets/c586e4f6-c600-41cb-b967-04f19ecb67ac" />
 
 **Visualization (placeholder):**
