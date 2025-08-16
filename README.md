@@ -153,24 +153,24 @@ A **star schema** was created consisting of:
 
 ### 1.3 OLAP Queries & Analysis
 
-Example query: **Total sales by country**.
+Example query:1. Roll-up: Total Sales by Country and Quarter
 
 **Sample Output :**
 
-| Country | TotalSales |
-| ------- | ---------- |
-| USA     | 1500.0     |
-| UK      | 1200.0     |
-| Germany | 900.0      |
+<img width="434" height="308" alt="image" src="https://github.com/user-attachments/assets/f470f011-ca5a-4686-bf16-7747757f83a3" />
+
+ 2️, Drill-down: Monthly Sales for a Specific Country
+**Sample Output :**
+<img width="439" height="122" alt="image" src="https://github.com/user-attachments/assets/3d3d8673-4bd3-49ee-8d7d-8ad0050bb460" />
+
+3️, Slice: Total Sales by Category (focus on Electronics)
+<img width="538" height="320" alt="image" src="https://github.com/user-attachments/assets/755d1603-8c40-416d-b999-260784504e84" />
+
+ Plot: Bar chart of total sales by country
+ <img width="1389" height="590" alt="image" src="https://github.com/user-attachments/assets/c586e4f6-c600-41cb-b967-04f19ecb67ac" />
 
 **Visualization (placeholder):**
 ![alt text](image-3.png)
-
-
-**Analysis:**
-
-* USA recorded the highest total sales.
-* Star schema enables efficient **roll-up (yearly totals)** and **drill-down (by customer)**.
 
 ---
 
