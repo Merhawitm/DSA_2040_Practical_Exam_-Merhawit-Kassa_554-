@@ -2,9 +2,13 @@
 # DSA 2040 Practical Exam Submission
 
 **Name:** \[Merhawit Tesfay Kassa]
+
 **Student ID:** \[670554]
+
 **Exam:** DSA 2040 US 2025 – Data Warehousing and Data Mining
-**Repository:** `DSA_2040_Practical_Exam_[Merhawit][554]`
+
+**Repository:** `DSA_2040_Practical_Exam_[Merhawit][554]
+
 **Date:** August 14, 2025
 
 # Overview
