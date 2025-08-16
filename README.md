@@ -7,7 +7,25 @@
 **Repository:** `DSA_2040_Practical_Exam_[Merhawit][554]`
 **Date:** August 14, 2025
 
+# Overview
 
+This project explores data mining techniques using two datasets:
+
+Iris Dataset – for classification, clustering, and preprocessing tasks.
+
+Synthetic Retail Dataset – for ETL, frequent itemset mining, and association rules.
+
+The project demonstrates a full data mining pipeline:
+
+ETL (Extract, Transform, Load)
+
+Exploratory Data Analysis (EDA)
+
+Clustering & Classification
+
+Frequent Pattern Mining (Apriori)
+
+Association Rules & Insights
 
 ## Table of Contents
 
@@ -40,37 +58,34 @@ This repository contains the **practical exam submission** for **DSA 2040 – Da
 
 ## Directory Structure
 
-```
-DSA_2040_Practical_Exam_[YourName][ID]/
+DSA_2040_PROJECT/
+│── data/                     # Datasets (raw & preprocessed)
+│   ├── iris_preprocessed.csv
+│   ├── synthetic_retail_data.csv
+│   ├── transactions.csv
+│   └── top5_rules.csv
 │
-├── README.md
-├── datasets/
-│   ├── online_retail.csv
-│   ├── synthetic_retail.csv
-│   └── synthetic_transactions.csv
-│
-├── dw_sql/
-│   ├── create_tables.sql
-│   └── olap_queries.sql
-│
-├── notebooks/
+│── notebooks/                # Jupyter Notebooks for analysis
 │   ├── Iris_Preprocessing_and_Exploration.ipynb
 │   ├── classification_iris.ipynb
 │   ├── clustering_iris.ipynb
 │   ├── mining_iris_basket.ipynb
 │   └── etl_retail.ipynb
 │
-├── outputs/
-│   ├── schema_diagram.png
-│   ├── sales_by_country.png
-│   ├── pairplot_iris.png
-│   ├── heatmap_iris.png
-│   ├── cluster_scatter.png
+│── images/                   # Plots, diagrams, and screenshots
+│   ├── iris_boxplots.png
+│   ├── iris_clusters.png
+│   ├── iris_correlation_heatmap.png
+│   ├── iris_pairplot.png
 │   ├── decision_tree.png
-│   └── confusion_matrix.png
+│   ├── confusion_matrix.png
+│   ├── elbow_curve.png
+│   ├── schema_diagram.png
+│   └── screenshots/*.jpg
 │
-└── retail_dw.db
-```
+│── retail_dw.db              # SQLite database for retail ETL
+│── schema.sql                # SQL schema for retail data warehouse
+│── README.md                 # Project documentation
 
 ---
 
@@ -115,7 +130,7 @@ A **star schema** was created consisting of:
 
 Example query: **Total sales by country**.
 
-**Sample Output (placeholder):**
+**Sample Output :**
 
 | Country | TotalSales |
 | ------- | ---------- |
@@ -187,7 +202,9 @@ Example query: **Total sales by country**.
 
 ## How to Run
 
+Run SQL queries in SQLite client (dw_sql/olap_queries.sql).
 1. Install dependencies (`pandas, numpy, scikit-learn, matplotlib, seaborn, mlxtend, faker`).
+ eg:pip install pandas numpy scikit-learn sqlite3 seaborn matplotlib mlxtend faker
 2. Run ETL to populate the warehouse.
 3. Open Jupyter notebooks in `notebooks/` for analysis.
 4. View outputs in the `outputs/` folder.
@@ -208,5 +225,30 @@ Example query: **Total sales by country**.
 | Association Rules     | ✅         | Apriori discovered frequent patterns and rules.      |
 
 ---
+## Main Results
 
+Clustering (Iris): Achieved clear separation of species using KMeans and visualized via elbow curve.
 
+Classification (Iris): Random Forest achieved 100% accuracy, outperforming Decision Tree.
+
+Frequent Itemset Mining (Retail): Discovered strong association rules (e.g., {milk, bread} → {butter}).
+
+ETL (Retail): Retail dataset successfully transformed into a star-schema SQLite DW.
+
+ ## Insights
+
+Random Forest provides better generalization compared to Decision Tree, explaining the higher accuracy.
+
+Association rules with high lift > 2 suggest strong product co-purchasing behavior in retail.
+
+EDA revealed clear correlations among Iris features (Petal Length & Width strongly separate species)
+
+## conclusion 
+
+This project demonstrates the versatility of data mining techniques across different domains:
+
+Supervised Learning (Iris Classification)
+
+Unsupervised Knowledge Discovery (Market Basket Mining)
+
+Both highlight the importance of data preprocessing, visualization, model selection, and interpretability.
