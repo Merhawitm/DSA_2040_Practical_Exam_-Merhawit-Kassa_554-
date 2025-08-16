@@ -65,25 +65,39 @@ This repository contains the **practical exam submission** for **DSA 2040 – Da
 DSA_2040_PROJECT/
 │── data/                     # Datasets (raw & preprocessed)
 │   ├── iris_preprocessed.csv
+
 │   ├── synthetic_retail_data.csv
+
 │   ├── transactions.csv
+
 │   └── top5_rules.csv
 │
 │── notebooks/                # Jupyter Notebooks for analysis
 │   ├── Iris_Preprocessing_and_Exploration.ipynb
+
 │   ├── classification_iris.ipynb
+
 │   ├── clustering_iris.ipynb
+
 │   ├── mining_iris_basket.ipynb
+
 │   └── etl_retail.ipynb
 │
 │── images/                   # Plots, diagrams, and screenshots
 │   ├── iris_boxplots.png
+
 │   ├── iris_clusters.png
+
 │   ├── iris_correlation_heatmap.png
+
 │   ├── iris_pairplot.png
+
 │   ├── decision_tree.png
+
 │   ├── confusion_matrix.png
+
 │   ├── elbow_curve.png
+
 │   ├── schema_diagram.png
 │   └── screenshots/*.jpg
 │
